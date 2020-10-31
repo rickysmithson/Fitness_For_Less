@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+}
+
+body {
+   background: url('/media/1087589.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh ;
+    color: #555;
+    
+    font-family: 'Lato';
+}
+
+/* from Bulma */
+.icon {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.header-bg{
+    background :#464646;
+}
+
+.orange-bg{
+    background: black;
+}
+
+
+.join-now-button,
+.view-products-button {
+    background: white;
+    color: black);
+    min-width: 260px;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.btn-orange {
+    background: orangered;
+    color: white;
+}
+.join-now-button:hover,
+.join-now-button:active,
+.join-now-button:focus,
+.view-products-button:hover,
+.view-products-button:active,
+.view-products-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: orangered;
+    color: white;
+}
+
+.text-orange {
+    color: orangered !important;
+}
+
+.text-black {
+    color: black   !important;
+}
+
+.text-white {
+    color: white   !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
+}
+
+/* -------------------------------- Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 80px;
+    }
+}
