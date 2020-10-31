@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+
+ 
+    <div class="container header-container">
+     
+        <div class="row">
+            {% for subscription in subscriptions %}
+            <div class="col-4 mb-3">
+                <div class="card">
+                    <div class="card-header"> {{subscription.name}}</div>
+                        <div class="card-body">
+                            <p class="card-text">{{subscription.description}}</p>
+                            <p class="card-text">£{{subscription.price}}</p>
+                            <a href="#" class="btn btn-primary">Subscribe</a>
+                        </div>
+                    </div>
+                </div>  
+          
+            {% endfor %}
+        </div>
+   
+     
+    </div>
+    
+{% endblock %}
