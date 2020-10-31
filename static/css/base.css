@@ -8,7 +8,7 @@ body {
     height: 100vh ;
     color: #555;
     
-    font-family: 'Lato';
+    font-family: 'Varela';
 }
 
 /* from Bulma */
@@ -80,6 +80,10 @@ body {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.border-white {
+    border: 1px solid white !important;
 }
 
 /* -------------------------------- Media Queries */
