@@ -1,14 +1,6 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="subscriptions-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Subscriptions
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="subscriptions-link">
-                <a href="{% url 'subscription' %}" class="dropdown-item ">Subscriptions</a>
-            </div>
-        </li>
-
+ 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-white mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
@@ -44,5 +36,6 @@
                 <a href="{% url 'products' %}?category=Weights,Machines,Accessories" class="dropdown-item">All Equipment</a>
             </div>
         </li>
-    </ul>
+
+            </ul>
 </div>
