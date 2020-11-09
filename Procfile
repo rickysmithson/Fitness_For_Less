@@ -1,2 +1,2 @@
 
-web: gunicorn fitness_for_less.wsgi:application
+web: gunicorn fitforlessrs.wsgi:application
