@@ -1,45 +1,67 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Fit 4 Less
 
-Welcome rickysmithson,
+Intoduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The Fit For Less Site has been designed to allow users to purhase products relating to the gym world.
 
-## Gitpod Reminders
+Included is an easy navigation bar which allows clear and user friendly navaigation accross the site and also in corperates the use of a search page which allows users
+to search for a particular term that they do not understand. The site is aimed at people who are wanting to purchase new equipment.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+User Experience
 
-`python3 -m http.server`
+The main purpose of the website is to provide user with the ability to purchase items from the site.
 
-A blue button should appear to click: *Make Public*,
+User 1 (Purchaser) 
 
-Another blue button should appear to click: *Open Browser*.
+	User 1 would like to purhcase equipment from the sit, this is possible through the use of e commerce 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+	
 
-A blue button should appear to click: *Make Public*,
+Navigation Bar
 
-Another blue button should appear to click: *Open Browser*.
+	A clear and concise navigation element has been created allowing easy browsing of the site.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Search Bar
 
-## Updates Since The Instructional Video
+	An easy to use search bar which allows users to search the site for terms as required 	
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Footer 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+	Allows users to see details about the site and further navigation links.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Additional features to be implemented in the future:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Allow users to categorize each term.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Technologies Used
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+HTML - Used as the main basis code for the site.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Python - Used as the scripting lanuage for site functionality.
 
---------
 
-Happy coding!
+MongoDB - Used as the database storage for the project.
+
+Django- Used as a design tool for the site.
+
+Testing
+
+Search form:
+Go to the "Home" page
+Try to submit the empty form and verify that an error message about the required fields appears
+Try to submit the form with all inputs valid and verify that a success message appears.
+
+Navigation Bar:
+Open Up site
+Does the Navigation bar display as expected.
+Do the links go to the correct page.
+does the nav bar collapse based on screen size.
+
+
+
+
+Deployment
+
+The Project has been deployed to Git Hub for use as a code version control tool
+https://fitforlessrs.herokuapp.com/ deployed to Heroku
